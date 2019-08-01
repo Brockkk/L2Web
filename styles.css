@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5vh 0px;
+    padding: 1vh 0px;
+    box-shadow: 0px 0px 15px 1px darkGrey;
+}
+
+.nav a {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+.left,
+.right {
+    min-height: 20vh;
+    width: 40%;
+    margin: 2vh 5%;
+    box-shadow: 0px 0px 15px 1px darkGrey;
+
+}
+
+p {
+    margin: 5%;
+}
+
+
+.bottom {
+    min-height: 20vh;
+    width: 90%;
+    margin: 2vh 5%;
+    box-shadow: 0px 0px 15px 1px darkGrey;
+
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 5vh auto;
+
+}
+
+.promo {
+    display: flex;
+
+}
+
+.promo li {
+    width: 30%;
+    margin: 10px 10%;
+}
+
+.promo li img {
+    width: 100%;
+}
+
+a:hover {
+    background-color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+    color: white;
+}
+
+.contact h2,
+.contact p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contact h1 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.left img,
+.right img {
+    display: block;
+    width: 80%;
+    margin: 2vh auto;
+}
+
+.aboutbottom {
+    min-height: 20vh;
+    width: 90%;
+    margin: 2vh 5%;
+    box-shadow: 0px 0px 15px 1px darkGrey;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.calculator {
+    margin: 5%;
+}
+
+.calculator h1 {
+    margin: 2vh 2%;
+}
